@@ -65,10 +65,6 @@ def win(l):
 
 #Приветствие
 print('====Пятнашки=====')
-
-
-
-
 #Основной цикл игры
 print(pole(proverka_probelov(array)))
 while True:
@@ -91,20 +87,3 @@ while True:
         print(pole(proverka_probelov(array)))
     else:
         print("невозможный ход")
-
-
-
-
-
-    
-    
-    
-    
-
-
-
-
-
-
-#print(pole(proverka_probelov(array)))
-#print(win(array))
